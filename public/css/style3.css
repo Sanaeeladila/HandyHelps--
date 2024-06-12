@@ -1,0 +1,161 @@
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 900px;
+    text-align: center;
+}
+.name-details{
+    display: flex;
+    gap: 16px;
+}
+.name-details .field:first-child{
+    margin-right: 10px;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.name-details .field:last-child{
+    margin-left: 245px;
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+
+.form-group2 input[type="radio"] {
+    display: none; 
+}
+.form-group2 label {
+    display: inline-block;
+    width: 30%; 
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: #f3f3f4;
+    cursor: pointer; 
+}
+.form-group2 input[type="radio"]:checked + label {
+    background-color: #86bd5f; 
+    color: #fff; 
+}
+.form-group3 label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.form-group3 input[type="text"] {
+    width: 100%;
+    height: 80px;
+    padding: 10px 20px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+}
+.form-group4 input[type="radio"] {
+    display: none; 
+}
+.form-group4 label {
+    display: inline-block;
+    width: 30%; 
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: #f3f3f4;
+    cursor: pointer; 
+}
+.form-group4 input[type="radio"]:checked + label {
+    background-color: #8cd0df; 
+    color: #fff; 
+}
+
+.form-group5 input[type="radio"] {
+    display: none; 
+}
+.form-group5 label {
+    display: inline-block;
+    width: 30%; 
+    height: 40px; 
+    line-height: 40px; 
+    text-align: center; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: #f3f3f4;
+    cursor: pointer; 
+}
+
+.form-group5 input[type="radio"]:checked + label {
+    background-color: #ffbd59; 
+    color: #fff; 
+}
+
+
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.form-group input[type="text"], .name-details input[type="text"], .form-group input[type="password"], .form-group input[type="date"]{
+    width: 100%;
+    padding: 10px 20px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+}
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 15px;
+    font: bold;
+    padding: 10px 20px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-4 {
+    flex: 0 0 calc(30% - 20px); 
+    margin: 10px;
+}
+
+.card {
+    width: 85%; 
+    height: 330px; 
+    background-color: #f3f3f4;
+    cursor: pointer;
+    text-decoration: none; 
+}
+ 
+.card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+}
+
+.card-img-top {
+    margin: 8px;
+    width: 95%;
+    height: 80%; 
+    object-fit: cover; 
+}
+/**************************************************/
+
